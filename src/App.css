@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-image: url(https://miro.medium.com/max/1200/0*3C6CUn1FEC_raM8c);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+.MovieCard{
+  text-align: center;
+   justify-content: center;
+}
