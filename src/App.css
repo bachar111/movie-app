@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: url(https://miro.medium.com/max/1200/0*3C6CUn1FEC_raM8c);
+  
+  background-image: url(C:\Users\MONTASSAR\Downloads\Yt3Vhb.jpg);
   background-repeat: no-repeat;
   background-size:cover ;
 }
@@ -8,3 +9,24 @@
   text-align: center;
    justify-content: center;
 }
+.moviecard{
+position: relative;
+transition: transform 0.2s;
+}
+.moviecard:hover{
+  cursor: pointer;
+  transform:scale(1.1) ;
+
+}
+.basic-nav-dropdown:hover{
+  position: relative;
+  display: inline-block;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+} 
+.basic-nav-dropdown:hover {background-color: #ddd;}

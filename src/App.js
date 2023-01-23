@@ -7,21 +7,30 @@ import Navbarr from './Component/Navbarr';
 import AddMovies from './Component/AddMovies';
 
 
+
+
 function App() {
   const [movies, setMovies ] = useState (moviesData)
   const add = (newMovie) => {
     setMovies([...movies,newMovie])
     
   }
+
   const [InputSearch , setInputSearch] = useState("")
   return (
     
     <div className="App">
      <Navbarr InputSearch={InputSearch} setInputSearch={setInputSearch}/>
      <MovieList movies={movies} InputSearch={InputSearch}/>
-     <AddMovies add={add} /> 
+     <AddMovies add={add} />
+  </div>
      
-    </div>
+
+
+
+
+
+  
   );
 }
 
